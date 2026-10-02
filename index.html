@@ -7,194 +7,181 @@
 <title>Kalyar Tax Group LLC | Tax Services</title>
 
 <style>
-*{box-sizing:border-box}
+*{
+  box-sizing:border-box;
+}
 
 body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#F4EBDD;
-color:#071526;
-line-height:1.6;
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#F4EBDD;
+  color:#071526;
+  line-height:1.6;
 }
 
 /* HEADER */
 header{
-background:#071526;
-padding:22px 7%;
-text-align:center;
-border-bottom:3px solid #B58A3C;
+  background:#071526;
+  text-align:center;
+  padding:25px 20px;
+  border-bottom:3px solid #B58A3C;
+}
+
+.logo{
+  width:170px;
+  max-width:65%;
+  height:auto;
+  border-radius:8px;
+  display:block;
+  margin:0 auto 15px;
 }
 
 .brand{
-font-family:Georgia,serif;
-font-size:27px;
-font-weight:bold;
-letter-spacing:2px;
-color:#D3B06A;
-}
-
-.brand-small{
-font-size:11px;
-letter-spacing:5px;
-color:#F4EBDD;
-margin-top:3px;
+  font-family:Georgia, serif;
+  color:#D4AF63;
+  font-size:25px;
+  font-weight:bold;
+  letter-spacing:2px;
 }
 
 /* HERO */
 .hero{
-padding:85px 7%;
-text-align:center;
-background:
-linear-gradient(135deg,#F4EBDD 0%,#FFFDF8 55%,#E8D5B1 100%);
+  text-align:center;
+  padding:70px 8%;
+  background:#FFF9EF;
 }
 
-.hero-label{
-color:#9A702B;
-font-size:13px;
-font-weight:bold;
-letter-spacing:4px;
+.hero small{
+  color:#9A7432;
+  font-weight:bold;
+  letter-spacing:3px;
 }
 
 .hero h1{
-font-family:Georgia,serif;
-font-size:48px;
-line-height:1.12;
-max-width:800px;
-margin:20px auto;
-color:#071526;
+  font-family:Georgia, serif;
+  font-size:46px;
+  line-height:1.1;
+  margin:20px auto;
+  max-width:750px;
 }
 
 .hero p{
-max-width:650px;
-margin:0 auto 32px;
-font-size:18px;
-color:#4D4D4D;
+  max-width:650px;
+  margin:0 auto 30px;
+  color:#4D4D4D;
+  font-size:18px;
 }
 
 .btn{
-display:inline-block;
-background:linear-gradient(135deg,#9B702A,#D3B06A);
-color:white;
-padding:15px 25px;
-margin:6px;
-border-radius:5px;
-text-decoration:none;
-font-weight:bold;
+  display:inline-block;
+  padding:14px 22px;
+  margin:7px;
+  background:#B58A3C;
+  color:white;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:bold;
 }
 
-.btn-navy{
-background:#071526;
+.btn-dark{
+  background:#071526;
 }
 
 /* SECTIONS */
 section{
-padding:70px 7%;
+  padding:60px 8%;
 }
 
 .title{
-text-align:center;
-font-family:Georgia,serif;
-font-size:38px;
-color:#071526;
-margin:0 0 10px;
+  text-align:center;
+  font-family:Georgia, serif;
+  font-size:38px;
+  margin-bottom:8px;
 }
 
 .subtitle{
-text-align:center;
-color:#6B6258;
-margin-bottom:40px;
+  text-align:center;
+  color:#666;
+  margin-bottom:35px;
 }
 
 /* SERVICES */
 .services{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:20px;
-max-width:1050px;
-margin:auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:20px;
+  max-width:1000px;
+  margin:auto;
 }
 
 .card{
-background:#FFFDF8;
-padding:30px;
-border:1px solid #D3B06A;
-border-radius:10px;
-box-shadow:0 5px 18px rgba(7,21,38,.08);
+  background:#FFF9EF;
+  border:1px solid #D8C7A6;
+  border-radius:10px;
+  padding:28px;
 }
 
 .card h3{
-font-family:Georgia,serif;
-color:#9B702A;
-font-size:22px;
+  font-family:Georgia, serif;
+  color:#9A7432;
 }
 
 /* ABOUT */
 .about{
-background:#071526;
-color:white;
-text-align:center;
-border-top:3px solid #B58A3C;
-border-bottom:3px solid #B58A3C;
+  background:#071526;
+  color:white;
+  text-align:center;
 }
 
-.about .title{
-color:#D3B06A;
+.about h2{
+  font-family:Georgia, serif;
+  color:#D4AF63;
+  font-size:36px;
 }
 
 .about p{
-max-width:760px;
-margin:auto;
-color:#EEE6D9;
-font-size:17px;
+  max-width:750px;
+  margin:auto;
+  color:#E8E8E8;
 }
 
 /* CONTACT */
 .contact{
-text-align:center;
-background:#FFFDF8;
+  text-align:center;
+  background:#FFF9EF;
 }
 
-.contact a.contact-info{
-display:block;
-color:#071526;
-font-weight:bold;
-text-decoration:none;
-margin:8px;
+.contact h2{
+  font-family:Georgia, serif;
+  font-size:36px;
+}
+
+.contact-info{
+  margin:25px 0;
+  font-size:18px;
 }
 
 /* FOOTER */
 footer{
-background:#050D17;
-color:#D3B06A;
-text-align:center;
-padding:28px;
-font-size:13px;
-letter-spacing:1px;
+  background:#071526;
+  color:#D4AF63;
+  text-align:center;
+  padding:25px;
+  font-size:14px;
 }
 
-/* MOBILE */
 @media(max-width:600px){
-.hero{
-padding:65px 6%;
-}
+  .hero{
+    padding:55px 20px;
+  }
 
-.hero h1{
-font-size:38px;
-}
+  .hero h1{
+    font-size:38px;
+  }
 
-section{
-padding:55px 6%;
-}
-
-.brand{
-font-size:23px;
-}
-
-.btn{
-display:block;
-max-width:290px;
-margin:10px auto;
-}
+  .title{
+    font-size:32px;
+  }
 }
 </style>
 </head>
@@ -202,117 +189,106 @@ margin:10px auto;
 <body>
 
 <header>
-<div class="brand">KALYAR</div>
-<div class="brand-small">TAX GROUP LLC</div>
+  <img src="IMG_0972.jpeg"
+       alt="Kalyar Tax Group LLC Logo"
+       class="logo">
+
+  <div class="brand">KALYAR TAX GROUP LLC</div>
 </header>
 
-<div class="hero">
+<section class="hero">
+  <small>KALYAR TAX GROUP LLC</small>
 
-<div class="hero-label">
-KALYAR TAX GROUP LLC
-</div>
+  <h1>Professional Tax Services You Can Depend On</h1>
 
-<h1>
-Professional Tax Services You Can Depend On
-</h1>
+  <p>
+    Helping individuals and businesses navigate their tax needs
+    with professional, attentive and reliable service.
+  </p>
 
-<p>
-Professional, attentive and reliable tax services for individuals and businesses.
-</p>
+  <a class="btn" href="tel:7867859292">
+    Call 786-785-9292
+  </a>
 
-<a class="btn" href="tel:7867859292">
-Call 786-785-9292
-</a>
-
-<a class="btn btn-navy" href="mailto:qasimabbas@kalyartaxgroup.com">
-Email Us
-</a>
-
-</div>
+  <a class="btn btn-dark"
+     href="mailto:qasimabbas@kalyartaxgroup.com">
+    Email Us
+  </a>
+</section>
 
 <section>
+  <h2 class="title">Our Services</h2>
 
-<h2 class="title">Our Services</h2>
+  <p class="subtitle">
+    Tax solutions for individuals and businesses.
+  </p>
 
-<p class="subtitle">
-Professional tax solutions tailored to your needs.
-</p>
+  <div class="services">
 
-<div class="services">
+    <div class="card">
+      <h3>Individual Tax Returns</h3>
+      <p>
+        Tax preparation assistance for individuals and families.
+      </p>
+    </div>
 
-<div class="card">
-<h3>Individual Tax Returns</h3>
-<p>
-Professional preparation of individual federal and applicable state income tax returns.
-</p>
-</div>
+    <div class="card">
+      <h3>Business Tax Services</h3>
+      <p>
+        Tax preparation support for businesses and self-employed clients.
+      </p>
+    </div>
 
-<div class="card">
-<h3>Business Tax Services</h3>
-<p>
-Tax preparation support for eligible businesses and business owners.
-</p>
-</div>
+    <div class="card">
+      <h3>Tax Filing Assistance</h3>
+      <p>
+        Organized and dependable assistance throughout the tax filing process.
+      </p>
+    </div>
 
-<div class="card">
-<h3>Tax Planning</h3>
-<p>
-Planning assistance to help you understand your tax situation and prepare for upcoming filing obligations.
-</p>
-</div>
+    <div class="card">
+      <h3>Tax Consultation</h3>
+      <p>
+        Personalized assistance to help you understand your tax situation.
+      </p>
+    </div>
 
-<div class="card">
-<h3>Tax Assistance</h3>
-<p>
-Help understanding tax documents, filing requirements and tax-related correspondence.
-</p>
-</div>
-
-</div>
-
+  </div>
 </section>
 
 <section class="about">
+  <h2>Kalyar Tax Group LLC</h2>
 
-<h2 class="title">
-About Kalyar Tax Group
-</h2>
-
-<p>
-Kalyar Tax Group LLC is committed to providing attentive and professional tax services. Our goal is to make tax preparation clear, organized and convenient while providing dependable service to every client.
-</p>
-
+  <p>
+    We are committed to providing attentive and reliable tax services
+    while making the filing process as straightforward as possible
+    for our clients.
+  </p>
 </section>
 
 <section class="contact">
+  <h2>Ready to Get Started?</h2>
 
-<h2 class="title">
-Let's Talk Taxes
-</h2>
+  <p>
+    Contact Kalyar Tax Group LLC to discuss your tax preparation needs.
+  </p>
 
-<p>
-Contact Kalyar Tax Group LLC to discuss your tax service needs.
-</p>
+  <div class="contact-info">
+    <strong>Phone:</strong> 786-785-9292
+    <br>
+    <strong>Email:</strong> qasimabbas@kalyartaxgroup.com
+  </div>
 
-<a class="contact-info" href="tel:7867859292">
-☎ 786-785-9292
-</a>
+  <a class="btn" href="tel:7867859292">Call Now</a>
 
-<a class="contact-info" href="mailto:qasimabbas@kalyartaxgroup.com">
-✉ qasimabbas@kalyartaxgroup.com
-</a>
-
-<br>
-
-<a class="btn" href="mailto:qasimabbas@kalyartaxgroup.com?subject=Tax%20Consultation%20Request">
-Request a Consultation
-</a>
-
+  <a class="btn btn-dark"
+     href="mailto:qasimabbas@kalyartaxgroup.com">
+    Send Email
+  </a>
 </section>
 
 <footer>
-KALYAR TAX GROUP LLC<br>
-© 2026 All Rights Reserved
+  © 2026 Kalyar Tax Group LLC. All rights reserved.
 </footer>
 
 </body>
